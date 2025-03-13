@@ -40,7 +40,7 @@ namespace FjernvarmeFynLogin.View
             else if (CurrentTicket.FeedbackStatus == "Solved")
             {
                 ticketStatusLabel.Content = "Løst";
-                ticketStatusLabel.Foreground = new SolidColorBrush(Colors.Green);
+                ticketStatusLabel.Foreground = new SolidColorBrush(Colors.LightGreen);
             }
         }
         private void Close_Click(object sender, RoutedEventArgs e)
