@@ -43,6 +43,6 @@
         <PasswordBox x:Name="createPassPB" FontSize="35" HorizontalContentAlignment="Center" Height="50" Width="1200" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" PasswordChanged="createPassPB_PasswordChanged"/>
         <PasswordBox x:Name="confirmPassPB" FontSize="35" HorizontalContentAlignment="Center" Height="50" Width="1200" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" PasswordChanged="confirmPassPB_PasswordChanged"/>
         <Button x:Name="confirmBtn" Command="{Binding AddUserCommand}" CommandParameter="{Binding}" Content="Bekræft" Style="{DynamicResource ButtonStyle}" FontSize="40" Width="300" Height="100" VerticalAlignment="Top" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" IsDefault="True"/>
-        <Button x:Name="backBtn" Content="Tilbage" Style="{DynamicResource ButtonStyle}" FontSize="40" Width="300" Height="100" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Click="backBtn_Click"/>
+        <Button x:Name="backBtn" Content="Tilbage" Style="{DynamicResource ButtonStyle}" FontSize="40" Width="300" Height="100" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1" Click="backBtn_Click"/>
     </Grid>
 </Window>
