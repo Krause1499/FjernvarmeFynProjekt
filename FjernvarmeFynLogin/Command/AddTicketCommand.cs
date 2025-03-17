@@ -49,7 +49,7 @@ namespace FjernvarmeFynLogin.Command
             if (parameter is CreateTicketViewModel ctvm)
             {
                 MessageBoxResult result = MessageBox.Show(
-                "Er du helt sikker på at fortsætte og oprette ticket?",
+                "Ønsker du at fortsætte og oprette din ticket?",
                 "Bekræft handling",
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Warning);
